@@ -1,0 +1,40 @@
+# Python
+__pycache__/
+*.pyc
+*.pyd
+.Python
+.venv/
+env/
+venv/
+*.egg-info/
+.pytest_cache/
+
+# Data
+dataset/
+data/raw/
+data/processed/
+
+# Models
+models/*.h5
+models/*.keras
+models/*.pt
+models/*.onnx
+models/*.savedmodel/
+models/checkpoints/
+
+# Notebooks
+notebooks/*/*.ipynb
+notebooks/*.ipynb
+
+
+# Logs
+logs/
+*.log
+
+# IDE specific files
+.idea/      # PyCharm
+.vscode/    # VS Code
+*.iml
+
+# Kaggle specific
+.kaggle/
